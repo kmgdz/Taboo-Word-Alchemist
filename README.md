@@ -1,13 +1,30 @@
 # Taboo Alchemist 🧙‍♂️
 
-A mystical, AI-powered word guessing game built on the concepts of GenLayer's Optimistic Democracy and LLM consensus.
+**GenLayer Portal Submission**
+**Type:** Mini-games for GenLayer's Community
 
-This project features a fully immersive, beautifully designed frontend that acts as an interactive simulation of GenLayer's unique `gl.nondet.exec_prompt` capability.
+*A mystical, AI-powered word guessing game built on the concepts of GenLayer's Optimistic Democracy and LLM consensus.*
 
-### Contract Reference
-**Testnet Asimov:** `0x1D241e67Bdb32D50E5D3B12ADF4c9C1426B0e422` *(Placeholder for GenLayer Smart Contract)*
+## 📖 Short Description
+**How it Works:**
+* **The Gameplay Loop:** Players are presented with a "Target Word" and a list of "Taboo Words" they cannot use. Their goal is to craft the perfect hint to make the AI guess the target.
+* **GenLayer Integration:** The game interacts with our deployed Intelligent Contract on the GenLayer Testnet Asimov. Players connect their Web3 wallets to submit their hints, which are then processed via intelligent consensus to evaluate if the AI successfully guessed the word without the player triggering any taboo constraints.
+* **On-Chain Elements:** Once a level is cleared, players can interact directly with the GenLayer network, submitting a raw transaction containing their game payload to record their progress.
 
-## ✨ Features
+**Technical Stack:**
+* **Frontend:** React, HTML5, Tailwind CSS, Vite, Ethers.js.
+* **Smart Contract:** Python (GenLayer Intelligent Contract format).
+* **Blockchain:** GenLayer Testnet Asimov
+
+**Why it fits the GenLayer Community:**
+It acts as both a community-engaging game and an educational tool. It interactively teaches players how Large Language Models (LLMs) parse prompts under GenLayer's consensus mechanisms, wrapping a complex technological breakthrough inside a highly polished, addictive mini-game.
+
+### 🔗 Important Links
+**Deployed Contract (Testnet Asimov):** [`0x1D241e67Bdb32D50E5D3B12ADF4c9C1426B0e422`](https://explorer-studio.genlayer.com/address/0x1D241e67Bdb32D50E5D3B12ADF4c9C1426B0e422)
+
+---
+
+## ✨ Additional Features
 
 - **Strategic Gameplay:** Formulate single-hint descriptions to guide the Oracle while avoiding strictly forbidden "Taboo Words".
 - **Immersive UI/UX:** Built with a dark, magical aesthetic, featuring fluid animations, glows, and responsive typography (Inter & Playfair Display).

@@ -5,7 +5,12 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
+  
+  // Use base path for GitHub Pages only. Vercel hosts at root path.
+  const base = process.env.GITHUB_ACTIONS ? '/Taboo-Word-Alchemist/' : '/';
+
   return {
+    base,
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),

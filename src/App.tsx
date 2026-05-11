@@ -284,7 +284,9 @@ export default function App() {
           <div className="flex items-center gap-6">
             <div className="text-sm font-mono flex flex-col items-end">
               <span className="text-white/60 uppercase tracking-widest text-xs">Score: <span className="text-[#ff4e00] font-bold text-sm ml-1">{score}</span></span>
-              <span className="text-[10px] text-white/40 uppercase tracking-widest mt-0.5">GenLayer Simulator</span>
+              <a href="https://explorer-studio.genlayer.com/address/0x1D241e67Bdb32D50E5D3B12ADF4c9C1426B0e422" target="_blank" rel="noreferrer" className="text-[10px] text-[#ff4e00]/70 uppercase tracking-widest mt-0.5 hover:text-[#ff4e00] transition-colors underline decoration-[#ff4e00]/50 underline-offset-2 flex items-center gap-1">
+                View Contract <Github className="w-3 h-3 hidden" />
+              </a>
             </div>
 
             {walletAddress ? (
