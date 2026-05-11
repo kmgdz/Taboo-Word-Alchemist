@@ -24,7 +24,7 @@ It acts as both a community-engaging game and an educational tool. It interactiv
 
 ---
 
-## ✨ Additional Features
+## ✨ Features
 
 - **Strategic Gameplay:** Formulate single-hint descriptions to guide the Oracle while avoiding strictly forbidden "Taboo Words".
 - **Immersive UI/UX:** Built with a dark, magical aesthetic, featuring fluid animations, glows, and responsive typography (Inter & Playfair Display).
@@ -35,12 +35,6 @@ It acts as both a community-engaging game and an educational tool. It interactiv
 
 - **/contracts/TabooAlchemist.py**: The Native GenLayer Python Smart Contract concept.
 - **/src**: The React Frontend (Vite + Tailwind) featuring the magical UI and Web3 interaction simulator.
-
-## 🧠 How It Works (Simulation vs Production)
-
-1. **The Core Loop:** The user serves as the "Conjurer" and submits an incantation (hint) to describe the target word.
-2. **Local Evaluation:** The simulation validates the hint against the taboo dictionary. Using forbidden forms (or the target word itself) explicitly reverts the local transaction.
-3. **The Oracle:** In a true GenLayer environment, this would call `gl.nondet.exec_prompt`. Here, the transaction evaluates execution delay and validates logic through a localized consensus mock, rewarding the user if the "Oracle" correctly deduces the intent.
 
 ## 🚀 How to Deploy React Frontend
 
